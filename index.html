@@ -78,17 +78,17 @@
 
         function next() {
             console.log("next");
-            i = i + 10;
+            i += 10;
             if (i <= 90) {
-                getPosts(i.toString())
+                getPosts(i)
             }
         }
 
         function previous() {
             console.log('previous');
-            i = i - 10;
+            i -= 10;
             if (i > 0) {
-                getPosts(i.toString())
+                getPosts(i)
             }
         }
 
